@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA000001000000000000001A /* AkilaAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000001000000000000001B /* AkilaAppApp.swift */; };
+		AA000002000000000000001A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002000000000000001B /* ContentView.swift */; };
+		AA000003000000000000001A /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000003000000000000001B /* Habit.swift */; };
+		AA000004000000000000001A /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000004000000000000001B /* Asset.swift */; };
+		AA000005000000000000001A /* WeightEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000005000000000000001B /* WeightEntry.swift */; };
+		AA000006000000000000001A /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000006000000000000001B /* DashboardView.swift */; };
+		AA000007000000000000001A /* HabitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000007000000000000001B /* HabitsView.swift */; };
+		AA000008000000000000001A /* AddHabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000008000000000000001B /* AddHabitView.swift */; };
+		AA000009000000000000001A /* FinanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000009000000000000001B /* FinanceView.swift */; };
+		AA00000A000000000000001A /* AddAssetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000A000000000000001B /* AddAssetView.swift */; };
+		AA00000B000000000000001A /* HealthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000B000000000000001B /* HealthView.swift */; };
+		AA00000C000000000000001A /* AddWeightEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000C000000000000001B /* AddWeightEntryView.swift */; };
+		AA00000D000000000000001A /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000D000000000000001B /* NotificationService.swift */; };
+		AA00000E000000000000001A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA00000E000000000000001B /* Assets.xcassets */; };
+		AA00000F000000000000001A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA00000F000000000000001B /* Preview Assets.xcassets */; };
+		AA000010000000000000001A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA000010000000000000001B /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA000001000000000000001B /* AkilaAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AkilaAppApp.swift; sourceTree = "<group>"; };
+		AA000002000000000000001B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA000003000000000000001B /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
+		AA000004000000000000001B /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
+		AA000005000000000000001B /* WeightEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightEntry.swift; sourceTree = "<group>"; };
+		AA000006000000000000001B /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		AA000007000000000000001B /* HabitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsView.swift; sourceTree = "<group>"; };
+		AA000008000000000000001B /* AddHabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabitView.swift; sourceTree = "<group>"; };
+		AA000009000000000000001B /* FinanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceView.swift; sourceTree = "<group>"; };
+		AA00000A000000000000001B /* AddAssetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAssetView.swift; sourceTree = "<group>"; };
+		AA00000B000000000000001B /* HealthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthView.swift; sourceTree = "<group>"; };
+		AA00000C000000000000001B /* AddWeightEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWeightEntryView.swift; sourceTree = "<group>"; };
+		AA00000D000000000000001B /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		AA00000E000000000000001B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA00000F000000000000001B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA000010000000000000001B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA000011000000000000001B /* AkilaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AkilaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA000020000000000000001A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA000030000000000000001A /* AkilaApp */ = {
+			isa = PBXGroup;
+			children = (
+				AA000001000000000000001B /* AkilaAppApp.swift */,
+				AA000002000000000000001B /* ContentView.swift */,
+				AA000031000000000000001A /* Models */,
+				AA000032000000000000001A /* Views */,
+				AA000033000000000000001A /* Services */,
+				AA00000E000000000000001B /* Assets.xcassets */,
+				AA000034000000000000001A /* Preview Content */,
+				AA000010000000000000001B /* Info.plist */,
+			);
+			path = AkilaApp;
+			sourceTree = "<group>";
+		};
+		AA000031000000000000001A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AA000003000000000000001B /* Habit.swift */,
+				AA000004000000000000001B /* Asset.swift */,
+				AA000005000000000000001B /* WeightEntry.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AA000032000000000000001A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA000035000000000000001A /* Dashboard */,
+				AA000036000000000000001A /* Habits */,
+				AA000037000000000000001A /* Finance */,
+				AA000038000000000000001A /* Health */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA000033000000000000001A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AA00000D000000000000001B /* NotificationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AA000034000000000000001A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AA00000F000000000000001B /* Preview Assets.xcassets */,
+			);
+			name = "Preview Content";
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AA000035000000000000001A /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				AA000006000000000000001B /* DashboardView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		AA000036000000000000001A /* Habits */ = {
+			isa = PBXGroup;
+			children = (
+				AA000007000000000000001B /* HabitsView.swift */,
+				AA000008000000000000001B /* AddHabitView.swift */,
+			);
+			path = Habits;
+			sourceTree = "<group>";
+		};
+		AA000037000000000000001A /* Finance */ = {
+			isa = PBXGroup;
+			children = (
+				AA000009000000000000001B /* FinanceView.swift */,
+				AA00000A000000000000001B /* AddAssetView.swift */,
+			);
+			path = Finance;
+			sourceTree = "<group>";
+		};
+		AA000038000000000000001A /* Health */ = {
+			isa = PBXGroup;
+			children = (
+				AA00000B000000000000001B /* HealthView.swift */,
+				AA00000C000000000000001B /* AddWeightEntryView.swift */,
+			);
+			path = Health;
+			sourceTree = "<group>";
+		};
+		AA000039000000000000001A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA000011000000000000001B /* AkilaApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA00003A000000000000001A = {
+			isa = PBXGroup;
+			children = (
+				AA000030000000000000001A /* AkilaApp */,
+				AA000039000000000000001A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA000040000000000000001A /* AkilaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA000050000000000000001A /* Build configuration list for PBXNativeTarget "AkilaApp" */;
+			buildPhases = (
+				AA000041000000000000001A /* Sources */,
+				AA000020000000000000001A /* Frameworks */,
+				AA000042000000000000001A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AkilaApp;
+			productName = AkilaApp;
+			productReference = AA000011000000000000001B /* AkilaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA000060000000000000001A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AA000040000000000000001A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = AA000051000000000000001A /* Build configuration list for PBXProject "AkilaApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA00003A000000000000001A;
+			productRefGroup = AA000039000000000000001A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA000040000000000000001A /* AkilaApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA000042000000000000001A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA00000E000000000000001A /* Assets.xcassets in Resources */,
+				AA00000F000000000000001A /* Preview Assets.xcassets in Resources */,
+				AA000010000000000000001A /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA000041000000000000001A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA000001000000000000001A /* AkilaAppApp.swift in Sources */,
+				AA000002000000000000001A /* ContentView.swift in Sources */,
+				AA000003000000000000001A /* Habit.swift in Sources */,
+				AA000004000000000000001A /* Asset.swift in Sources */,
+				AA000005000000000000001A /* WeightEntry.swift in Sources */,
+				AA000006000000000000001A /* DashboardView.swift in Sources */,
+				AA000007000000000000001A /* HabitsView.swift in Sources */,
+				AA000008000000000000001A /* AddHabitView.swift in Sources */,
+				AA000009000000000000001A /* FinanceView.swift in Sources */,
+				AA00000A000000000000001A /* AddAssetView.swift in Sources */,
+				AA00000B000000000000001A /* HealthView.swift in Sources */,
+				AA00000C000000000000001A /* AddWeightEntryView.swift in Sources */,
+				AA00000D000000000000001A /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA000070000000000000001A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_CYCLE = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA000071000000000000001A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_CYCLE = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA000072000000000000001A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AkilaApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AkilaApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akila.AkilaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AA000073000000000000001A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AkilaApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AkilaApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akila.AkilaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA000050000000000000001A /* Build configuration list for PBXNativeTarget "AkilaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA000072000000000000001A /* Debug */,
+				AA000073000000000000001A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA000051000000000000001A /* Build configuration list for PBXProject "AkilaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA000070000000000000001A /* Debug */,
+				AA000071000000000000001A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = AA000060000000000000001A /* Project object */;
+}
