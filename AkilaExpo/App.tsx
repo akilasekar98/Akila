@@ -13,6 +13,7 @@ import FinanceScreen from './src/screens/FinanceScreen';
 import AddAssetScreen from './src/screens/AddAssetScreen';
 import HealthScreen from './src/screens/HealthScreen';
 import AddWeightScreen from './src/screens/AddWeightScreen';
+import ClinicalTrialsScreen from './src/screens/ClinicalTrialsScreen';
 
 const Tab = createBottomTabNavigator();
 const Stack = createNativeStackNavigator();
@@ -98,6 +99,11 @@ export default function App() {
           name="Health"
           component={HealthStack}
           options={{ tabBarIcon: ({ color }) => <Text style={{ fontSize: 22, color }}>❤️</Text> }}
+        />
+        <Tab.Screen
+          name="Trials"
+          component={ClinicalTrialsScreen}
+          options={{ tabBarIcon: ({ color }) => <Text style={{ fontSize: 22, color }}>🔬</Text> }}
         />
       </Tab.Navigator>
     </NavigationContainer>
